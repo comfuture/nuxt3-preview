@@ -1,3 +1,15 @@
 import { defineNuxtConfig } from 'nuxt3';
 
-defineNuxtConfig({});
+defineNuxtConfig({
+  css: ['~/assets/default.css'],
+  build: {
+    postcss: {
+      postcssOptions: {
+        plugins: {
+          tailwindcss: {},
+          autoprefixer: {},
+        },
+      },
+    },
+  },
+});
