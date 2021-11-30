@@ -6,6 +6,8 @@
   </div>
 </template>
 <script setup lang="ts">
+import './assets/default.css';
+
 const count = ref<number>(0);
 const inc = () => count.value++;
 </script>
