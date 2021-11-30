@@ -1,0 +1,13 @@
+{
+  "name": "nuxt-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "nuxi start"
+  },
+  "dependencies": {
+    "nuxt3": "^3.0.0-27303148.ac98373"
+  }
+}
