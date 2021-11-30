@@ -11,6 +11,6 @@ const inc = () => count.value++;
 </script>
 <style lang="postcss">
 h2 {
-  color: red;
+  @apply text-blue-500;
 }
 </style>
