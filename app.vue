@@ -9,7 +9,7 @@
 const count = ref<number>(0);
 const inc = () => count.value++;
 </script>
-<style lang="postcss"?
+<style lang="postcss">
 h2 {
   @apply text-lg text-red-500;
 }
