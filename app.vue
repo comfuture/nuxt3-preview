@@ -6,7 +6,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import '~/assets/css/tailwind.css';
+// import '~/assets/css/tailwind.css';
 
 const count = ref<number>(0);
 const inc = () => count.value++;
